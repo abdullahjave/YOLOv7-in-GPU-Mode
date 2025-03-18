@@ -190,7 +190,7 @@ if __name__ == '__main__':
             half = (device.type != 'cpu') and (compute_capability[0] >= 8)  # half precision only supported on CUDA
 
         # Load Model
-        weights = torch.load(opt.weights)
+        weights = torch.load(opt.weights, weights_only=False)
         model = weights['model'].to(device)
 
         with open(opt.hyp) as f:
