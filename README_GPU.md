@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/License-GPL%20v3-red.svg)](LICENSE.md)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/yolov7-trainable-bag-of-freebies-sets-new/real-time-object-detection-on-coco)](https://paperswithcode.com/sota/real-time-object-detection-on-coco?p=yolov7-trainable-bag-of-freebies-sets-new)
 
-<img src="./figure/performance.png" width="80%" alt="YOLOv7 Performance"/>
+<img src="../figure/performance.png" width="80%" alt="YOLOv7 Performance"/>
 
 **🎯 State-of-the-art real-time object detection optimized for GPU acceleration**
 
@@ -147,7 +147,7 @@ python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source 0
 After running detection, check the `runs/detect/exp/` folder for your results!
 
 <div align="center">
-<img src="./figure/horses_prediction.jpg" width="60%" alt="Detection Example"/>
+<img src="../figure/horses_prediction.jpg" width="60%" alt="Detection Example"/>
 </div>
 
 ---
@@ -335,7 +335,7 @@ python detect_pose.py --weights yolov7-w6-pose.pt --source image.jpg
 ```
 
 <div align="center">
-<img src="./figure/pose.png" width="40%" alt="Pose Estimation"/>
+<img src="../figure/pose.png" width="40%" alt="Pose Estimation"/>
 </div>
 
 ### 🎭 Instance Segmentation
@@ -349,7 +349,7 @@ python detect_mask.py --weights yolov7-mask.pt --source image.jpg
 ```
 
 <div align="center">
-<img src="./figure/mask.png" width="60%" alt="Instance Segmentation"/>
+<img src="../figure/mask.png" width="60%" alt="Instance Segmentation"/>
 </div>
 
 ### 🔧 Model Re-parameterization
